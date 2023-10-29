@@ -1,0 +1,37 @@
+.multi-select {
+  --input-width: 350px;
+  margin-top: 5px;
+  background-color: white;
+}
+.court {
+  background-image: url(../../assets/court.jpg);
+  background-size: cover;
+  /* opacity: 0.5;
+  content: "";
+  z-index: "3" */
+}
+.button {
+  background-image: linear-gradient(
+    to right,
+    #da22ff 0%,
+    #9733ee 51%,
+    #da22ff 100%
+  );
+  margin: 10px;
+  padding: 7px 35px;
+  text-align: center;
+  font-size: larger;
+  /* text-transform: uppercase; */
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 3px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}

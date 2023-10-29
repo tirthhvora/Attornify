@@ -117,7 +117,7 @@ const SignUp = () => {
       });
       localStorage.setItem("userInfo", JSON.stringify(data));
       setLoading(false);
-      history.push("/chats");
+      history.push("/user");
     } catch (error) {
       toast({
         title: "Error Occured!",
@@ -194,7 +194,7 @@ const SignUp = () => {
           </InputRightElement>
         </InputGroup>
       </FormControl>
-
+      {/* 
       <FormControl id="pic" isRequired>
         <FormLabel>Picture</FormLabel>
         <Input
@@ -204,7 +204,7 @@ const SignUp = () => {
           placeholder="Upload your Picture"
           onChange={(e) => postDetails(e.target.files[0])}
         ></Input>
-      </FormControl>
+      </FormControl> */}
 
       <Button
         width="100%"
